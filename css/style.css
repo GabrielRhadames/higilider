@@ -11,7 +11,7 @@ body{
     
 }
 .header {
-    background-image: url(/img/Background-estendido.jpg);
+    background-image: url(../img/Background-estendido.jpg);
     text-align: center;
     padding: 20px 0;
     /* margin: auto; */
@@ -45,7 +45,7 @@ body{
 
 .btn-menu{
     margin-bottom: 15px;
-    background-image: url(/img/Background-estendido.jpg);
+    background-image: url(../img/Background-estendido.jpg);
     padding: 10px 20px ;
     cursor: pointer;
     font-family: 'Sigmar One','arial black' , cursive;
@@ -78,7 +78,7 @@ body{
     /* Rodapé */
     text-align: center;
     padding: 10px 0;
-    background-image: url(/img/background-mini.jpg);
+    background-image: url(../img/background-mini.jpg);
     color: white;
     
 }
@@ -172,7 +172,7 @@ h1{
     width: 85%;
     background: #d8d8d8;
     padding: 15px 30px 15px 40px;
-    background-image: url(/img/Cartão.jpg);
+    background-image: url(../img/Cartão.jpg);
    
     background-size: 570px;
 }
