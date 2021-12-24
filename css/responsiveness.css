@@ -1,0 +1,68 @@
+@media screen and ( max-width: 680px) {
+    .galery{
+        width: 100%;
+        border: 5px solid   #2a82bd;
+    }
+    .header{   
+        padding: 0;
+        width: auto;
+    } 
+    .logo{
+        padding: 5%;
+        
+        
+    }
+    .btn-whatsapp{
+        display: flex;
+    }
+
+}
+@media screen and ( max-width: 505px) {
+    .header{   
+        padding: 0;
+        width: auto;      
+        
+    } 
+    .logo{
+        padding: 5%;
+     
+
+    }
+    .navbar, .navbar-contato{
+        width: auto;
+    
+    }
+    .content{
+        width:auto;
+    }
+
+}
+
+
+@media screen and ( max-width: 880px){
+    .header{   
+        padding: 0;
+        width: auto;      
+        
+    } 
+    .logo{
+        padding: 5%;
+      
+
+
+    }
+    .navbar, .navbar-contato{
+        width: auto;
+
+    }
+    .content{
+        width:auto;
+    }
+}
+@media screen and ( max-width: 400px) {
+    .navbar, .navbar-contato{
+        padding: 30px 0 0 0;
+        width: 100px;
+    }
+
+}

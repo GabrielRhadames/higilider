@@ -1,0 +1,249 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-family: "comic sans Ms";
+    
+    
+}
+.header {
+    background-image: url(/img/Background-estendido.jpg);
+    text-align: center;
+    padding: 20px 0;
+    /* margin: auto; */
+    background-attachment: fixed;
+}
+.logo{
+    width: 230px;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.navbar{
+    width: 25%;
+    background: #2a82bd;
+    padding: 30px  30px 17px 30px;
+ 
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    list-style-type: square;
+}
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+.btn-menu{
+    margin-bottom: 15px;
+    background-image: url(/img/Background-estendido.jpg);
+    padding: 10px 20px ;
+    cursor: pointer;
+    font-family: 'Sigmar One','arial black' , cursive;
+    font-size: 15px;
+    
+}
+
+.content{
+    width: 85%;
+    background: #d8d8d8;
+    padding: 10px 30px 30px 30px;
+}
+.mais-informacoes{
+    font-size: small;
+    
+    display: inline-block;
+}
+.mais-informacoes a{
+    color: blue;
+    background-color: rgba(19, 182, 231, 0.226);
+
+}
+.mais-informacoes a:visited{
+    color: blue;
+    background-color: rgba(19, 182, 231, 0.226);
+}
+
+
+.footer{
+    /* Rodapé */
+    text-align: center;
+    padding: 10px 0;
+    background-image: url(/img/background-mini.jpg);
+    color: white;
+    
+}
+.credito{
+    background-color: black;
+    display: inline;
+    font-size: 10px;
+    
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 15px 0; 
+
+}
+.social img{
+    width: 33px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;   
+}
+
+
+
+.galery {
+    width: 440px ;
+    /* height: 460; */
+    background-color: black;
+    overflow: hidden;
+    border: 5px solid #2a82bd;
+    margin: 0;
+    padding: 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.63);
+
+
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.galery .fotos img {
+    width: 20%;
+}
+.fotos{
+    display: flex;
+}
+
+.img-quem-somos{
+    border: 2px solid black;
+}
+
+.texto{
+    font-size: large;
+    color: #2a51bd;
+    font-weight: bold;
+}
+.texto-quem-somos{
+    
+    font-weight: bold;
+    font-size: 20px;
+    color: #2a51bd;
+    line-height: 1.3;
+    padding-bottom: 8px;
+    
+    
+}
+.texto-quem-somos-parte-dois{
+    
+    line-height: 1.3;
+    color: #2a51bd;
+    font-size: large;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 146);
+}
+.home{
+    color:#2a51bd ;
+    font-size: large;
+}   
+
+.content-contato{
+    width: 85%;
+    background: #d8d8d8;
+    padding: 15px 30px 15px 40px;
+    background-image: url(/img/Cartão.jpg);
+   
+    background-size: 570px;
+}
+.navbar-contato{
+    width: 15%;
+    background: #2a82bd;
+    padding: 30px  30px 17px 30px;
+ 
+}
+.home-contato{
+    width: 404px;
+    margin: 30px auto;
+    border: 2px solid black;
+    padding: 20px;
+    color: black ;
+    font-size: large;
+    background-color: rgba(0, 183, 255, 0.863);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.63);
+}
+
+.site {
+    
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.897);
+    display: inline-block;
+}
+.site a:hover{
+    background: white;
+    color: black;
+    border: solid 1px black;
+}
+
+.h1-contato{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    height: 33px;
+    
+}
+.btn-whatsapp{
+ 
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(9, 165, 9);
+    color: white;
+
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn-whatsapp i{
+    margin-right: 5px;
+}
+a:visited{
+    color: rgb(255, 255, 255); 
+    
+}
+ /* a:hover {
+    color: rgb(9, 165, 9);
+    background-color: white;
+    border: solid 2px green;
+}  */
+a:active {
+    color: rgb(21, 182, 211);
+}
+.btn-whats a:hover{
+    color: rgb(9, 165, 9);
+    background-color: white;
+    border: solid 2px green;
+}
+
+

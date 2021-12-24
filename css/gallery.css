@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-family: "comic sans Ms";
+}
+.header {
+    background-image: url(/img/Background-estendido.jpg);
+    text-align: center;
+    padding: 20px 0;
+    /* margin: auto; */
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+}
+
+.navbar{
+    width: 15%;
+    background: #2a82bd;
+    padding: 30px  30px 17px 30px;
+ 
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    list-style-type: square;
+}
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+button{
+    margin-bottom: 15px;
+    background-image: url(/img/Background-estendido.jpg);
+    padding: 10px 20px ;
+    cursor: pointer;
+    font-family: 'Sigmar One','arial black' , cursive;
+    font-size: 15px;
+    
+}
+
+.content{
+    width: 85%;
+    background: #d8d8d8;
+    padding: 10px 30px 30px 30px;
+}
+
+.footer{
+    /* Rodapé */
+    text-align: center;
+    padding: 10px 0;
+    background-image: url(/img/background-mini.jpg);
+    color: white;
+    font-weight: bold;
+}
+.credito{
+    background-color: black;
+    display: inline;
+    font-size: 10px;
+    
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
+    
+}
+.gallery-items{
+    width: 340px;
+    height: 240px;
+    border: 6px solid #fff;
+    box-shadow: 5px 5px 5px #0005;
+    flex-grow: 1;
+    transition: transform 1s linear;
+    
+}
+.gallery-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-items:hover{
+    transform: scale(1.3);
+}
+.texto{
+    font-size: large;
+    color: #2a51bd;
+    font-weight: bold;
+}
+.btn-whats a:hover{
+    color: rgb(9, 165, 9);
+    border: solid 2px green;
+    background-color: white;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 15px 0; 
+
+}
+.social img{
+    width: 33px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;   
+}
+
+
+
+@media screen and ( max-width: 800px) {
+    
+    .content{
+        padding: 5px 2px 2px 2px;
+    }
+    .navbar{
+        padding: 5px;
+    }
+    
+    .gallery{
+        width: 100%;
+        border: 5px solid #bd3b2a;
+    }
+    .header{   
+        padding: 0;
+        width: auto;
+    } 
+    .logo{
+        padding: 5%;
+        width: 50%;
+        
+    }
+    
+}
+@media screen and ( max-width: 740px) {
+    .header{   
+        padding: 0;
+        width: auto;      
+        
+    } 
+    .logo{
+        padding: 5%;
+        width: 50%;
+        left: 100%;
+
+
+    }
+    .navbar{
+        width: auto;
+    }
+    .content{
+        width:auto;
+    }
+
+}
+ @media screen and ( max-width: 505px) {
+    .header{   
+        padding: 0;
+        width: auto;      
+        
+    } 
+    .logo{
+        padding: 5%;
+        width: 50%;
+
+
+    }
+    .navbar{
+        width: auto;
+    }
+    .content{
+        width:auto;
+    }
+
+}
+    @media screen and ( max-width: 405px) {
+    
+    .navbar{
+
+        padding: 0;
+        margin: 0;
+    }
+    .botton{
+        width: 5px;
+        padding: 0;
+        margin: 0;
+    }
+    .content{
+        width: 85%;
+        background: #d8d8d8;
+        padding: 5px 2px 2px 2px;
+    }
+    .reader .logo{
+        width: 100px;
+        left: 2000px;
+    }
+}
+@media screen and ( max-width: 270px) {
+    
+    .navbar{
+
+        padding: 0;
+        margin: 0;
+    }
+    .botton{
+        width: 5px;
+        padding: 0;
+        margin: 0;
+    }
+    .content{
+        width: 85%;
+        background: #d8d8d8;
+        padding: 5px 2px 2px 2px;
+    }
+    .reader .logo{
+        width: 100px;
+        left: 2000px;
+    }
+}
+
+.btn-whatsapp{
+ 
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(9, 165, 9);
+    color: white;
+
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn-whatsapp i{
+    margin-right: 5px;
+}
+a:visited{
+    color: rgb(255, 255, 255); 
+    
+}
+
+a:active {
+    color: rgb(21, 182, 211);
+}
+.texto{
+    text-align: center;
+}
